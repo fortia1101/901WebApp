@@ -1,0 +1,64 @@
+.content {
+    position: relative;
+    top: 120px;
+}
+
+.content>.title {
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: rgba(74, 85, 104, 1);
+}
+
+.confirm {
+    font-size: 1rem;
+    color: rgba(74, 85, 104, 1);
+    position: absolute;
+    top: 50px;
+    width: 310px;
+}
+
+.confirm>.btn {
+    display: flex;
+    position: absolute;
+    top: 50px;
+    left: 20px;
+}
+
+.confirm>.btn>.yes>button {
+    margin-right: 20px;
+    width: 90px;
+    height: 40px;
+    color: rgb(255, 255, 255);
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+    background-color: rgb(6, 182, 212);
+    border: none;
+    border-radius: 2rem;
+    cursor: pointer;
+}
+
+.confirm>.btn>.no>button {
+    width: 90px;
+    height: 40px;
+    color: rgb(255, 255, 255);
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+    background-color: rgb(244, 68, 39);
+    border: none;
+    border-radius: 2rem;
+    cursor: pointer;
+}
+
+
+@media (min-width: 896px) {
+    main {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .content {
+        transform: scale(1.4, 1.4);
+    }
+}

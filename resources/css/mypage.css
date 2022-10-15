@@ -1,0 +1,135 @@
+@media (max-width: 895px) {
+    .content {
+        position: relative;
+        top: 120px;
+    }
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.logout {
+    background-color: rgba(6, 182, 212, 1);
+}
+
+.delete {
+    background-color: rgb(244, 68, 39);
+}
+
+.admin {
+    background-color: rgb(179, 71, 237);
+}
+
+.back {
+    background-color: rgb(232, 144, 61);
+}
+
+.graduate {
+    position: relative;
+    background-color: rgb(68, 188, 116);
+    margin: 16px 10px;
+    text-align: center;
+    display: inline-block;
+    padding: 6.5px 12px;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 1.2rem;
+    cursor: pointer;
+}
+
+.graduate:hover {
+    transform: scale(1.03, 1.03);
+}
+
+.first-area>button,
+.second-area>button,
+.third-area>button {
+    margin: 16px 10px;
+    text-align: center;
+    width: 160px;
+    height: 40px;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 1.2rem;
+    cursor: pointer;
+}
+
+.first-area>button:hover,
+.second-area>button:hover,
+.third-area>button:hover {
+    transform: scale(1.03, 1.03);
+}
+
+#pop-up {
+    display: none;
+}
+
+.window {
+    display: none;
+}
+
+.window>.close {
+    font-size: 2.5rem;
+    cursor: pointer;
+}
+
+.window>.close:hover {
+    color: rgba(74, 85, 104, 0.527);
+}
+
+#pop-up:checked+.window {
+    display: block;
+    z-index: 99;
+    background-color: rgba(209, 216, 227, 1);
+    position: fixed;
+    width: 90%;
+    height: 50vh;
+    top: 120px;
+    left: 10px;
+}
+
+.window>button {
+    margin-top: 20px;
+    margin-left: 60px;
+    background-color: rgba(6, 182, 212, 1);
+    text-align: center;
+    width: 200px;
+    height: 32px;
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 1.2rem;
+    cursor: pointer;
+}
+
+.window>button:hover {
+    transform: scale(1.03, 1.03);
+}
+
+/* for iPhone 6s */
+@media (min-width: 376px) {}
+
+/* for iPhone ProMax */
+@media (min-width: 415px) {}
+
+/* for PC */
+@media (min-width: 896px) {
+    .content {
+        position: relative;
+        top: 140px;
+        transform: scale(1.3, 1.3);
+    }
+
+    #pop-up:checked+.window {
+        top: 0;
+        left: 0;
+        width: 100%;
+    }
+}

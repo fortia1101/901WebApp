@@ -1,0 +1,30 @@
+.flash_message {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 26px;
+    color: rgb(255, 255, 255);
+    font-size: 1.2rem;
+    font-weight: bold;
+    background-color: rgba(80, 180, 180, 1);
+    animation-name: fadeout-to-top;
+    animation-duration: 1s; /* アニメーションの再生時間 */
+    animation-delay: 3s;
+    animation-fill-mode: forwards; /* アニメーションの最後の状態を維持 */
+}
+
+@keyframes fadeout-to-top {
+    0% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(-10vh);
+    }
+}

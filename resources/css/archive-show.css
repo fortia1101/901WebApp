@@ -1,0 +1,125 @@
+.mypage-btn-label {
+    right: -100px;
+}
+
+.to-mypage {
+    transform: translateX(100px);
+}
+
+.side-area {
+    transform: translateX(100px);
+}
+
+.content {
+    position: absolute;
+    top: 90px;
+    left: 2px;
+    width: 100%;
+}
+
+.upper-area {
+    display: flex;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.archive-title {
+    font-size: 1.6rem;
+    color: rgba(74, 85, 104, 1);
+}
+
+.back {
+    position: absolute;
+    right: 20px;
+}
+
+.back>button {
+    width: 60px;
+    height: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    background-color: rgba(6, 182, 212, 1);
+    cursor: pointer;
+    border: none;
+    border-radius: 1rem;
+}
+
+.back>button:hover {
+    transform: scale(1.03, 1.03);
+}
+
+.archive-body {
+    display: flex;
+    justify-content: center;   
+}
+
+iframe {
+    display: flex;
+    width: 96%;
+    height: 500px;
+    border-radius: 0.6rem;
+}
+
+/* for iPhone 6s */
+@media (min-width: 376px) {
+    iframe {
+        width: 97%;
+        height: 560px;
+    }
+}
+
+
+/* for iPhone ProMax */
+@media (min-width: 415px) {
+    iframe {
+        height: 566px;
+    }
+}
+
+/* for PC */
+@media (min-width: 680px) {
+    .mypage-btn-label {
+        right: 21px;
+    }
+
+    .content {
+        left: 10px;
+    }
+
+    .to-mypage {
+        transform: translateX(0);
+    }
+
+    .side-area {
+        transform: translateX(0);
+    }
+
+    .upper-area{
+        top: 60px;
+        display: block;
+    }
+
+    .archive-title {
+        font-size: 2rem;
+    }
+
+    .back {
+        top: 60px;
+        left: 10px;
+    }
+
+    .back>button {
+        width: 90px;
+        height: 50px;
+        font-size: 1.6rem;
+        border-radius: 2rem;;
+    }
+
+    iframe {
+        position: absolute;
+        top: -70px;
+        width: 570px;
+        height: 796px;
+    }
+}

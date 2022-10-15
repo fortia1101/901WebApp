@@ -1,0 +1,119 @@
+.header-area {
+    display: flex;
+    position: relative;
+}
+
+.app-logo {
+    position: absolute;
+    /* top: 10px; */
+    left: 10px;
+    width: 76px;
+    height: 76px;
+    border-radius: 1rem;
+    /* box-shadow: 5px 5px 10px rgb(163, 177, 198, 1),
+        -5px -5px 10px rgba(255, 255, 255, 1); */
+}
+
+.exit-btn-label {
+    position: absolute;
+    top: 64px;
+    right: 24px;
+    font-size: 0.8rem;
+    color: rgba(74, 85, 104, 1);
+}
+
+.exit {
+    position: absolute;
+    top: 10px;
+    right: 12px;
+    display: inline;
+    width: 52px;
+    height: 52px;
+    background-color: rgba(209, 216, 227, 1);
+    border-radius: 100%;
+    box-shadow: inset 4px 4px 4px rgba(163, 177, 198, 1),
+        inset -4px -4px 4px rgba(255, 255, 255, 1);
+}
+
+.exit>button {
+    /* Don't touch! */
+    position: absolute;
+    top: 1.75px;
+    right: 3.2px;
+    width: 52px;
+    height: 52px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.exit>button>svg {
+    width: 2rem;
+    height: 2rem;
+}
+
+
+@media (min-width:680px) {
+    .app-logo {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        width: 80px;
+        height: 80px;
+        border-radius: 1rem;
+        box-shadow: 5px 5px 10px rgb(163, 177, 198, 1),
+            -5px -5px 10px rgba(255, 255, 255, 1);
+    }
+
+    .app-logo>svg {
+        margin-top: 3px;
+        margin-left: 1px;
+    }
+
+    .app-logo {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        width: 80px;
+        height: 80px;
+        border-radius: 1rem;
+        box-shadow: 5px 5px 10px rgb(163, 177, 198, 1),
+            -5px -5px 10px rgba(255, 255, 255, 1);
+    }
+
+    .exit-btn-label {
+        top: 80px;
+        right: 39px;
+        font-size: 0.9rem;
+    }
+
+    .exit {
+        position: absolute;
+        top: 10px;
+        right: 20px;
+        display: inline;
+        width: 68px;
+        height: 68px;
+        background-color: rgba(209, 216, 227, 1);
+        border-radius: 100%;
+        box-shadow: inset 4px 4px 4px rgba(163, 177, 198, 1),
+            inset -4px -4px 4px rgba(255, 255, 255, 1);
+    }
+
+    .exit>button {
+        /* Don't touch! */
+        position: absolute;
+        top: 2px;
+        right: 2.8px;
+        width: 68px;
+        height: 68px;
+        background: none;
+        border: none;
+        cursor: pointer;
+    }
+
+    .exit>button>svg {
+        width: 3rem;
+        height: 3rem;
+    }
+}
