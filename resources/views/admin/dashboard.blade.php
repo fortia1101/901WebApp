@@ -1,4 +1,4 @@
-<x-app-layout>
+<x-appLayout>
     @vite(['resources/css/admin/dashboard.css'])
 
     <div class="content">
@@ -36,4 +36,4 @@
             </div>
         </div>
     </div>
-</x-app-layout>
+</x-appLayout>

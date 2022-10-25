@@ -1,4 +1,4 @@
-<x-app-layout>
+<x-appLayout>
     @vite(['resources/css/home.css'])
 
     <x-slot name="title">{{ __('- ホーム') }}</x-slot>
@@ -38,4 +38,4 @@
             </ul>
         </div>
     </div>
-</x-app-layout>
+</x-appLayout>
