@@ -1,4 +1,4 @@
-<x-appLayout>
+<x-app-layout>
     @vite(['resources/css/archive-show.css'])
 
     <x-slot name="title">{{ __('- アーカイブ') }}</x-slot>
@@ -18,4 +18,4 @@
             <iframe src="{{ $archive->body }}" allow="autoplay"></iframe>
         </div>
     </div>
-</x-appLayout>
+</x-app-layout>

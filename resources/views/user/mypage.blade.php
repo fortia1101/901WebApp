@@ -1,4 +1,4 @@
-<x-appLayout>
+<x-app-layout>
     @vite(['resources/css/mypage.css'])
 
     <x-slot name="title">{{ __('- マイページ') }}</x-slot>
@@ -25,4 +25,4 @@
             <button onclick="location.href='{{ route('user.graduate-login') }}'">{{ __('Gmailアカウントを選択') }}</button>
         </div>
     </div>
-</x-appLayout>
+</x-app-layout>

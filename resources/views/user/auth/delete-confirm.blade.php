@@ -1,4 +1,4 @@
-<x-appLayout>
+<x-app-layout>
     @vite(['resources/css/delete-confirm.css'])
 
     <x-slot name="title">{{ __('- ユーザー削除の確認') }}</x-slot>
@@ -18,4 +18,4 @@
             </div>
         </div>  
     </div>
-</x-appLayout>
+</x-app-layout>
