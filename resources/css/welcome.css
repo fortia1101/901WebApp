@@ -97,7 +97,7 @@ body {
     font-size: 20px;
     font-weight: bold;
     color: rgba(209, 216, 227, 1);
-    padding: 25px;
+    padding: 26px 12px;
     background-color: rgba(209, 216, 227, 1);
     border-bottom-left-radius: 2rem;
     border: none;
@@ -121,7 +121,7 @@ body {
     font-size: 24px;
     font-weight: bold;
     color: rgba(209, 216, 227, 1);
-    padding: 18px 14px 24px 14px;
+    padding: 26px 12px;
     background-color: rgba(209, 216, 227, 1);
     border-bottom-left-radius: 2rem;
     border: none;
