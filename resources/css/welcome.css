@@ -234,6 +234,14 @@ body {
     .main-area {
         height: 800px;
     }
+
+    .tohome-btn>.btn {
+        padding: 25px;
+    }
+
+    .login-btn>.btn {
+        padding: 24px 12px 23px 12px;
+    }
 }
 
 
