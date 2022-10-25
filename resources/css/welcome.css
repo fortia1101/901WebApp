@@ -75,7 +75,7 @@ body {
     border-bottom-left-radius: 2rem;
     border: none;
     margin: 0;
-    padding: 27px 22px 27px 22px;
+    padding: 28px 22px 28px 22px;
 }
 
 .tohome-btn>.btn {
@@ -142,7 +142,7 @@ body {
     border-bottom-left-radius: 2rem;
     border: none;
     margin: 0;
-    padding: 28px 12px 27px 12px;
+    padding: 28px 12px 28px 12px;
 }
 
 .login-btn>.btn:hover {
@@ -240,7 +240,7 @@ body {
     }
 
     .tohome-btn>.btn {
-        font-size: 18px;
+        font-size: 20px;
     }
 
     .dummy-btn-1>.btn {
