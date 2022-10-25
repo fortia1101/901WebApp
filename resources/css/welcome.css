@@ -118,7 +118,7 @@ body {
     font-size: 24.2px;
     font-weight: bold;
     color: rgba(209, 216, 227, 1);
-    padding: 18px 14px 24px 14px;
+    padding: 18px 14px 22px 14px;
     background-color: rgba(209, 216, 227, 1);
     border-bottom-left-radius: 2rem;
     border: none;
@@ -248,7 +248,7 @@ body {
     }
 
     .dummy-btn-2>.btn {
-        font-size: 22px;
+        font-size: 24px;
     }
 }
 
@@ -277,7 +277,7 @@ body {
     }
 
     .tohome-btn>.btn {
-        padding: 25px;
+        padding: 27px 25px;
     }
 
     .login-btn>.btn {
