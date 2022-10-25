@@ -1,9 +1,5 @@
-main {
-    overflow-x: hidden;
-}
-
 .mypage-btn-label {
-    display: hidden;
+    display: none;
 }
 
 .to-mypage {
