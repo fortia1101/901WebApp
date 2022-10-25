@@ -235,12 +235,20 @@ body {
         height: 800px;
     }
 
-    .tohome-btn>.btn {
-        padding: 25px;
+    .login-btn>.btn {
+        font-size: 22px;
     }
 
-    .login-btn>.btn {
-        padding: 24px 12px 23px 12px;
+    .tohome-btn>.btn {
+        font-size: 18px;
+    }
+
+    .dummy-btn-1>.btn {
+        font-size: 18px;
+    }
+
+    .dummy-btn-2>.btn {
+        font-size: 22px;
     }
 }
 
