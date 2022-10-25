@@ -113,11 +113,11 @@ main {
     transform: scale(1.03, 1.03);
 }
 
-/* for iPhone 6s */
-@media (min-width: 376px) {}
+/* for iPhone 6s, X */
+@media (min-width: 375px) {}
 
 /* for iPhone ProMax */
-@media (min-width: 415px) {}
+@media (min-width: 414px) {}
 
 /* for PC */
 @media (min-width: 896px) {

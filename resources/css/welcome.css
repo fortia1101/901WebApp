@@ -229,8 +229,8 @@ body {
     color: rgb(180, 80, 80);
 }
 
-/* for iPhone 6s */
-@media (min-width: 376px) {
+/* for iPhone 6s, X */
+@media (min-width: 375px) {
     .main-area {
         height: 800px;
     }
@@ -254,7 +254,7 @@ body {
 
 
 /* for iPhone ProMax */
-@media (min-width: 415px) {
+@media (min-width: 414px) {
     .main-area {
         height: 720px;
     }

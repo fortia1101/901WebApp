@@ -65,8 +65,8 @@ iframe {
     border-radius: 0.6rem;
 }
 
-/* for iPhone 6s */
-@media (min-width: 376px) {
+/* for iPhone 6s, X */
+@media (min-width: 375px) {
     iframe {
         width: 97%;
         height: 560px;
@@ -75,7 +75,7 @@ iframe {
 
 
 /* for iPhone ProMax */
-@media (min-width: 415px) {
+@media (min-width: 414px) {
     iframe {
         height: 566px;
     }
