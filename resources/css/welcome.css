@@ -236,11 +236,11 @@ body {
     }
 
     .login-btn>.btn {
-        font-size: 20px;
+        font-size: 18px;
     }
 
     .tohome-btn>.btn {
-        font-size: 20px;
+        font-size: 18px;
     }
 
     .dummy-btn-1>.btn {
@@ -248,7 +248,7 @@ body {
     }
 
     .dummy-btn-2>.btn {
-        font-size: 24px;
+        font-size: 20px;
     }
 }
 
