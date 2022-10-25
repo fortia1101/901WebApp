@@ -15,7 +15,7 @@ export default defineConfig({
                 'resources/css/home.css',
                 'resources/css/admin/header.css',
                 'resources/css/admin/dashboard.css',
-                // 'resources/js/app.js'
+                'resources/js/app.js'
             ],
             refresh: true,
         }),
