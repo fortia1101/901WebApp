@@ -248,7 +248,7 @@ body {
     }
 
     .dummy-btn-2>.btn {
-        font-size: 24px;
+        font-size: 26px;
     }
 }
 
@@ -277,11 +277,19 @@ body {
     }
 
     .tohome-btn>.btn {
-        padding: 27px 25px;
+        padding: 27px 25px 26px 25px;
     }
 
     .login-btn>.btn {
         padding: 24px 12px 22.9px 12px;
+    }
+
+    .dummy-btn-1>.btn {
+        font-size: 22px;
+    }
+
+    .dummy-btn-2>.btn {
+        font-size: 26px;
     }
 
     .sub-txt {
