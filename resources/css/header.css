@@ -27,6 +27,9 @@
     top: 10px;
     right: 8px;
     display: inline;
+    width: 52px;
+    height: 52px;
+    padding: 0;
     background-color: rgba(209, 216, 227, 1);
     border-radius: 100%;
     box-shadow: inset 4px 4px 4px rgba(163, 177, 198, 1),
