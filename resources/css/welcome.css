@@ -288,10 +288,11 @@ body {
     }
 
     .dummy-btn-1>.btn {
+        font-size: 20px;
     }
 
     .dummy-btn-2>.btn {
-        font-size: 26px;
+        font-size: 24px;
     }
 
     .sub-txt {
