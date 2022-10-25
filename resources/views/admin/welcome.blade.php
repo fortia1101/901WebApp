@@ -31,7 +31,7 @@
                     </div>
 
                     <div class="dummy-btn-1">
-                        <div class="btn">　</div>
+                        <div class="btn">ダミー</div>
                     </div>
                 @endauth
             </div>

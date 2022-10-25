@@ -32,7 +32,7 @@
                         </div>
 
                         <div class="dummy-btn-1">
-                            <div class="btn">　</div>
+                            <div class="btn">ダミー</div>
                         </div>
                     @else
                         <div class="logo-bg-2">
@@ -46,7 +46,7 @@
                         </div>
 
                         <div class="dummy-btn-2">
-                            <div class="btn">　</div>
+                            <div class="btn">ダミー</div>
                         </div>
                     @endauth
                 @endif
