@@ -39,7 +39,7 @@
     /* Don't touch! */
     position: absolute;
     top: 1.75px;
-    right: 8px;
+    right: 2px;
     width: 52px;
     height: 52px;
     padding: 0;
@@ -176,7 +176,7 @@
         /* Don't touch! */
         position: absolute;
         top: 2px;
-        right: 2.8px;
+        right: 2px;
         width: 68px;
         height: 68px;
         background: none;
