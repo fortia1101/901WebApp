@@ -1,3 +1,7 @@
+body {
+    overflow-x: hidden;
+}
+
 .mypage-btn-label {
     right: -100px;
 }
