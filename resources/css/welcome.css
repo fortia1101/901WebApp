@@ -64,7 +64,7 @@ body {
 .tohome-btn {
     background-color: rgba(209, 216, 227, 1);
     border-top-right-radius: 3rem;
-    height: 79px;
+    height: 80px;
 }
 
 .tohome-btn>.btn {
@@ -110,7 +110,7 @@ body {
 .dummy-btn-2 {
     background-color: rgba(6, 182, 212, 1);
     border-top-right-radius: 3rem;
-    height: 79px;
+    height: 80px;
 }
 
 .dummy-btn-2:hover {
@@ -134,7 +134,7 @@ body {
 .login-btn {
     background-color: rgba(209, 216, 227, 1);
     border-top-right-radius: 3rem;
-    height: 79px;
+    height: 80px;
 }
 
 .login-btn>.btn {
