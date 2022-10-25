@@ -1,9 +1,5 @@
-.mypage-btn-label {
-    display: none;
-}
-
 .to-mypage {
-    transform: translateX(100px);
+    display: none;
 }
 
 .side-area {
@@ -89,7 +85,7 @@ iframe {
     }
 
     .to-mypage {
-        transform: translateX(0);
+        display: block;
     }
 
     .side-area {
