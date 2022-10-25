@@ -75,7 +75,7 @@ body {
     border-bottom-left-radius: 2rem;
     border: none;
     margin: 0;
-    padding: 25px;
+    padding: 28px 22px 28px 22px;
 }
 
 .tohome-btn>.btn {
@@ -258,6 +258,10 @@ body {
     .main-1st>.site-title {
         font-size: 42px;
         margin-left: 3rem;
+    }
+
+    .tohome-btn>.btn {
+        padding: 25px;
     }
 
     .login-btn>.btn {
