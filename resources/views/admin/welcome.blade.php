@@ -24,7 +24,7 @@
                     </div>
 
                     <div class="tohome-btn">
-                        <button onclick="location.href='{{ route('admin.dashboard') }}'" class="btn" style="padding: 25px 22px">{{ __('管理画面') }}</button>
+                        <button onclick="location.href='{{ route('admin.dashboard') }}'" class="btn">{{ __('管理画面') }}</button>
                     </div>
 
                     <div class="dummy-btn-1">
