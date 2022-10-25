@@ -3,7 +3,7 @@ main {
 }
 
 .mypage-btn-label {
-    right: -100px;
+    display: hidden;
 }
 
 .to-mypage {
@@ -16,7 +16,7 @@ main {
 
 .content {
     position: absolute;
-    top: 90px;
+    top: 80px;
     left: 2px;
     width: 100%;
 }
@@ -84,6 +84,7 @@ iframe {
 /* for PC */
 @media (min-width: 680px) {
     .mypage-btn-label {
+        display: block;
         right: 21px;
     }
 
