@@ -40,7 +40,7 @@
                                         <path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(245,180,116); fill-rule: nonzero; opacity: 1;" vector-effect="non-scaling-stroke"  transform=" translate(0, 0)" d="M -38.69606 -31.13888 L -27.192970000000003 -3.7066300000000005 L -27.192970000000003 -3.7066300000000005 C -22.38174 7.767059999999999 -5.083980000000004 18.32229 21.632579999999997 26.08711 L 39.01428 31.13888 L -39.01428 31.13888 z" stroke-linecap="round" />
                                     </g>
                                     <g transform="matrix(1 0 0 1 50 33.5)" style="" id="FrO4rGenXTgQzQ0yr5T7I"  >
-                                        <text xml:space="preserve" font-family="Open Sans" font-size="14" font-style="normal" font-weight="600" letter-spacing="0.028" line-height="1" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-20.82" y="5.81" >ホ</tspan><tspan x="-6.79" y="5.81" >ー</tspan><tspan x="6.82" y="5.81" >ム</tspan></text>
+                                        <text xml:space="preserve" font-family="ヒラギノ角ゴ ProN W3" font-size="14" font-style="normal" font-weight="600" letter-spacing="0.028" line-height="1" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-20.82" y="5.81" >ホ</tspan><tspan x="-6.79" y="5.81" >ー</tspan><tspan x="6.82" y="5.81" >ム</tspan></text>
                                     </g>
                                 </svg>
                             </button>
@@ -63,15 +63,11 @@
                                         <path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(6,182,212); fill-rule: nonzero; opacity: 1;" vector-effect="non-scaling-stroke"  transform=" translate(0, 0)" d="M -38.69606 -31.13888 L -27.192970000000003 -3.7066300000000005 L -27.192970000000003 -3.7066300000000005 C -22.38174 7.767059999999999 -5.083980000000004 18.32229 21.632579999999997 26.08711 L 39.01428 31.13888 L -39.01428 31.13888 z" stroke-linecap="round" />
                                     </g>
                                     <g transform="matrix(1 0 0 1 50.4 33.25)" style="" id="FrO4rGenXTgQzQ0yr5T7I"  >
-                                            <text xml:space="preserve" font-family="Open Sans" font-size="13" font-style="normal" font-weight="600" letter-spacing="0.024" line-height="1" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-24.04" y="4.05" >ロ</tspan><tspan x="-12.01" y="4.05" >グ</tspan><tspan x="0.01" y="4.05" >イ</tspan><tspan x="12.04" y="4.05" >ン</tspan></text>
+                                            <text xml:space="preserve" font-family="ヒラギノ角ゴ ProN W3" font-size="13" font-style="normal" font-weight="600" letter-spacing="0.024" line-height="1" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-24.04" y="4.05" >ロ</tspan><tspan x="-12.01" y="4.05" >グ</tspan><tspan x="0.01" y="4.05" >イ</tspan><tspan x="12.04" y="4.05" >ン</tspan></text>
                                     </g>
                                 </svg>
                             </button>
                         </div>
-
-                        {{-- <div class="dummy-btn-2">
-                            <div class="btn">ダミー</div>
-                        </div> --}}
                     @endauth
                 @endif
             </div>
