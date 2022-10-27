@@ -27,27 +27,51 @@
                             </div>
                         </div>
 
-                        <div class="tohome-btn">
-                            <button onclick="location.href='{{ route('user.home') }}'" class="btn">{{ __('ホーム') }}</button>
-                        </div>
-
-                        <div class="dummy-btn-1">
-                            <div class="btn">ダミー</div>
+                        <div class="home-btn">
+                            <button onclick="location.href='{{ route('user.home') }}'">
+                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="130" height="82" viewBox="0 0 100 67" xml:space="preserve">
+                                    <g transform="matrix(0.66 0 0 0.8 50.4 34.57)" id="doK8QEVDWxhHMfIwnZV2-"  >
+                                        <path style="stroke: rgb(245,180,116); stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(245,180,116); fill-rule: nonzero; opacity: 1;" vector-effect="non-scaling-stroke"  transform=" translate(0, 0)" d="M -52.93905 -41.42131 L 6.70514 -41.42131 L 6.70514 -41.42131 C 32.23943 -41.42131 52.93905 -24.12795 52.93905 -2.79551 C 52.93905 7.778689999999999 52.93905 20.17902 52.93905 29.247529999999998 C 52.93905 49.24753 52.93905 38.5787 52.93905 38.5787 L -8.042919999999995 38.5787 L -8.042919999999995 38.5787 C -32.83837 38.5787 -52.93906 21.785719999999998 -52.93906 1.070529999999998 z" stroke-linecap="round" />
+                                    </g>
+                                    <g transform="matrix(-0.2 0 0 -0.58 7.91 18.06)" id="BHxY8FfYchNg9OAlrdZxz"  >
+                                        <path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(245,180,116); fill-rule: nonzero; opacity: 1;" vector-effect="non-scaling-stroke"  transform=" translate(0, 0)" d="M -38.42104 -28.60357 L -27.901489999999995 -5.335080000000001 L -27.901489999999995 -5.335080000000001 C -22.530829999999995 6.544449999999999 -3.9166599999999967 17.31178 24.224940000000004 24.817359999999997 L 38.42105 28.603569999999998 L -38.421029999999995 28.603569999999998 z" stroke-linecap="round" />
+                                    </g>
+                                    <g transform="matrix(0.19 0 0 0.57 92.51 47.7)" id="4qPMUuRP_VTugFdnhr80C"  >
+                                        <path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(245,180,116); fill-rule: nonzero; opacity: 1;" vector-effect="non-scaling-stroke"  transform=" translate(0, 0)" d="M -38.69606 -31.13888 L -27.192970000000003 -3.7066300000000005 L -27.192970000000003 -3.7066300000000005 C -22.38174 7.767059999999999 -5.083980000000004 18.32229 21.632579999999997 26.08711 L 39.01428 31.13888 L -39.01428 31.13888 z" stroke-linecap="round" />
+                                    </g>
+                                    <g transform="matrix(1 0 0 1 50 33.5)" style="" id="FrO4rGenXTgQzQ0yr5T7I"  >
+                                        <text xml:space="preserve" font-family="Open Sans" font-size="14" font-style="normal" font-weight="600" letter-spacing="0.028" line-height="1" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-20.82" y="5.81" >ホ</tspan><tspan x="-6.79" y="5.81" >ー</tspan><tspan x="6.82" y="5.81" >ム</tspan></text>
+                                    </g>
+                                </svg>
+                            </button>
                         </div>
                     @else
-                        <div class="logo-bg-2">
-                            <div class="logo-area">
-                                <x-application-logo />
-                            </div>
+                        <div class="logo-area">
+                            <x-application-logo />
                         </div>
 
                         <div class="login-btn">
-                            <button onclick="location.href='{{ route('user.googleLogin') }}'" class="btn">{{ __('ログイン') }}</button>
+                            <button onclick="location.href='{{ route('user.googleLogin') }}'">
+                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="130" height="82" viewBox="0 0 100 67" xml:space="preserve">
+                                    <g transform="matrix(0.66 0 0 0.8 50.4 34.57)" id="doK8QEVDWxhHMfIwnZV2-"  >
+                                        <path style="stroke: rgb(6,182,212); stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(6,182,212); fill-rule: nonzero; opacity: 1;" vector-effect="non-scaling-stroke"  transform=" translate(0, 0)" d="M -52.93905 -41.42131 L 6.70514 -41.42131 L 6.70514 -41.42131 C 32.23943 -41.42131 52.93905 -24.12795 52.93905 -2.79551 C 52.93905 7.778689999999999 52.93905 20.17902 52.93905 29.247529999999998 C 52.93905 49.24753 52.93905 38.5787 52.93905 38.5787 L -8.042919999999995 38.5787 L -8.042919999999995 38.5787 C -32.83837 38.5787 -52.93906 21.785719999999998 -52.93906 1.070529999999998 z" stroke-linecap="round" />
+                                    </g>
+                                    <g transform="matrix(-0.2 0 0 -0.58 7.91 18.06)" id="BHxY8FfYchNg9OAlrdZxz"  >
+                                        <path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(6,182,212); fill-rule: nonzero; opacity: 1;" vector-effect="non-scaling-stroke"  transform=" translate(0, 0)" d="M -38.42104 -28.60357 L -27.901489999999995 -5.335080000000001 L -27.901489999999995 -5.335080000000001 C -22.530829999999995 6.544449999999999 -3.9166599999999967 17.31178 24.224940000000004 24.817359999999997 L 38.42105 28.603569999999998 L -38.421029999999995 28.603569999999998 z" stroke-linecap="round" />
+                                    </g>
+                                    <g transform="matrix(0.19 0 0 0.57 92.51 47.7)" id="4qPMUuRP_VTugFdnhr80C"  >
+                                        <path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(6,182,212); fill-rule: nonzero; opacity: 1;" vector-effect="non-scaling-stroke"  transform=" translate(0, 0)" d="M -38.69606 -31.13888 L -27.192970000000003 -3.7066300000000005 L -27.192970000000003 -3.7066300000000005 C -22.38174 7.767059999999999 -5.083980000000004 18.32229 21.632579999999997 26.08711 L 39.01428 31.13888 L -39.01428 31.13888 z" stroke-linecap="round" />
+                                    </g>
+                                    <g transform="matrix(1 0 0 1 50.4 33.25)" style="" id="FrO4rGenXTgQzQ0yr5T7I"  >
+                                            <text xml:space="preserve" font-family="Open Sans" font-size="13" font-style="normal" font-weight="600" letter-spacing="0.024" line-height="1" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-24.04" y="4.05" >ロ</tspan><tspan x="-12.01" y="4.05" >グ</tspan><tspan x="0.01" y="4.05" >イ</tspan><tspan x="12.04" y="4.05" >ン</tspan></text>
+                                    </g>
+                                </svg>
+                            </button>
                         </div>
 
-                        <div class="dummy-btn-2">
+                        {{-- <div class="dummy-btn-2">
                             <div class="btn">ダミー</div>
-                        </div>
+                        </div> --}}
                     @endauth
                 @endif
             </div>

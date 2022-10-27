@@ -27,26 +27,6 @@ body {
     border: solid 4px rgba(209, 216, 227, 1);
 }
 
-.logo-bg-1 {
-    background-color: rgba(245, 180, 116, 1);
-    border-top-left-radius: 1.1rem;
-    border-bottom-left-radius: 1.1rem;
-}
-
-.logo-bg-1:hover {
-    cursor: pointer;
-}
-
-.logo-bg-2 {
-    background-color: rgba(6, 182, 212, 1);
-    border-top-left-radius: 1.1rem;
-    border-bottom-left-radius: 1.1rem;
-}
-
-.logo-bg-2:hover {
-    cursor: pointer;
-}
-
 .logo-area {
     padding-right: 3rem;
     padding-left: 0.75rem;
@@ -61,74 +41,54 @@ body {
     cursor: default;
 }
 
-.tohome-btn {
+.dashboard-btn {
     background-color: rgba(209, 216, 227, 1);
     border-top-right-radius: 3rem;
     height: 80px;
 }
 
-.tohome-btn>.btn {
-    font-size: 18px;
-    font-weight: bold;
-    color: rgba(255, 255, 255, 1);
-    background-color: rgba(245, 180, 116, 1);
-    border-top-right-radius: 3rem;
-    border-bottom-left-radius: 2rem;
-    border: none;
-    margin: 0;
-    padding: 26px 22px;
-}
-
-.tohome-btn>.btn {
-    cursor: pointer;
-}
-
-.dummy-btn-1 {
-    background-color: rgba(245, 180, 116, 1);
-    border-top-right-radius: 3rem;
-    height: 79px;
-}
-
-.dummy-btn-1:hover {
-    cursor: pointer;
-}
-
-.dummy-btn-1>.btn {
-    font-size: 20px;
-    font-weight: bold;
-    color: rgba(209, 216, 227, 1);
-    padding: 26px 12px;
+.dashboard-btn>button {
+    position: relative;
+    width: 130px;
+    height: 82px;
     background-color: rgba(209, 216, 227, 1);
-    border-bottom-left-radius: 2rem;
     border: none;
 }
 
-.dummy-btn-1>.btn:hover {
-    cursor: default;
+.dashboard-btn>button>svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: none;
 }
 
-.dummy-btn-2 {
-    background-color: rgba(6, 182, 212, 1);
+.dashboard-btn>button:hover {
+    cursor: pointer;
+}
+
+.home-btn {
+    background-color: rgba(209, 216, 227, 1);
     border-top-right-radius: 3rem;
     height: 80px;
 }
 
-.dummy-btn-2:hover {
-    cursor: pointer;
-}
-
-.dummy-btn-2>.btn {
-    font-size: 24px;
-    font-weight: bold;
-    color: rgba(209, 216, 227, 1);
-    padding: 26px 12px;
+.home-btn>button {
+    position: relative;
+    width: 130px;
+    height: 82px;
     background-color: rgba(209, 216, 227, 1);
-    border-bottom-left-radius: 2rem;
     border: none;
 }
 
-.dummy-btn-2>.btn:hover {
-    cursor: default;
+.home-btn>button>svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: none;
+}
+
+.home-btn>button:hover {
+    cursor: pointer;
 }
 
 .login-btn {
@@ -137,19 +97,22 @@ body {
     height: 80px;
 }
 
-.login-btn>.btn {
-    font-size: 18px;
-    font-weight: bold;
-    color: rgba(255, 255, 255, 1);
-    background-color: rgba(6, 182, 212, 1);
-    border-top-right-radius: 3rem;
-    border-bottom-left-radius: 2rem;
+.login-btn>button {
+    position: relative;
+    width: 130px;
+    height: 82px;
+    background-color: rgba(209, 216, 227, 1);
     border: none;
-    margin: 0;
-    padding: 26px 12px;
 }
 
-.login-btn>.btn:hover {
+.login-btn>button>svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: none;
+}
+
+.login-btn>button:hover {
     cursor: pointer;
 }
 
@@ -243,7 +206,7 @@ body {
         font-size: 18px;
     }
 
-    .tohome-btn>.btn {
+    .home-btn>.btn {
         font-size: 18px;
     }
 
@@ -280,7 +243,7 @@ body {
         margin-left: 3rem;
     }
 
-    .tohome-btn>.btn {
+    .home-btn>.btn {
         padding: 27px 25px 26px 25px;
     }
 
