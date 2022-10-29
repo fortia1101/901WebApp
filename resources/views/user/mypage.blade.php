@@ -10,7 +10,7 @@
         </div>
 
         <div class="second-area">
-            <button class="admin" type="submit" onclick="location.href='{{ route('admin.welcome') }}'">{{ __('管理画面へ') }}</button>
+            <button class="admin" type="submit" onclick="location.href='{{ route('admin.dashboard') }}'">{{ __('管理画面へ') }}</button>
             <label class="graduate" for="pop-up">{{ __('卒部生Gmail登録') }}</label>
         </div>
 
