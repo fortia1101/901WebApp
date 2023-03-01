@@ -9,9 +9,8 @@ use Artisan;
 
 class ArchiveDeleteController extends Controller
 {
-    public function archiveDelete(Request $request)
+    public function archiveDelete()
     {
-        session()->forget('deleteFileID');
         if ($request->get('archive-delete') == null) {
             return redirect()
                 ->route('admin.dashboard')
