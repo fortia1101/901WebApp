@@ -59,4 +59,16 @@ class GoogleDrive
         $fileList = $driveClient->files->listFiles();
         session()->push('fileID', $fileList['files'][0]['id']);
     }
+
+    public function archiveDelete()
+    {
+        $driveClient = $this->getDriveClient(); 
+
+        if (session('deleteFileID') !== null) {
+            $driveClient->files->delete(session('deleteFileID'));
+            session()->push('deleteJudge', '0');
+        } else {
+            session()->push('deleteJudge', '1');
+        }
+    }
 }

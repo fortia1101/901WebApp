@@ -10,7 +10,9 @@ use App\Http\Controllers\Admin\Auth\RegisteredUserController;
 use App\Http\Controllers\Admin\Auth\VerifyEmailController;
 use App\Http\Controllers\Admin\AdminExitController;
 use App\Http\Controllers\Admin\ArchiveSetController;
+use App\Http\Controllers\Admin\ArchiveDeleteController;
 use Illuminate\Support\Facades\Route;
+use App\Models\Archive;
 
 /*
 |--------------------------------------------------------------------------
@@ -30,7 +32,9 @@ Route::middleware('auth:users')->group(function () {
 
     Route::get('/dashboard', function () {
         session()->put('admin', 1);
-        return view('admin.dashboard');
+        $archives = Archive::orderBy('title', 'desc')->get();
+        return view('admin.dashboard')
+            ->with(['archives' => $archives]);
     })->name('dashboard');
 
     Route::get('/exit', [AdminExitController::class, 'exit'])
@@ -38,6 +42,9 @@ Route::middleware('auth:users')->group(function () {
 
     Route::post('/archive-set', [ArchiveSetController::class, 'archiveSet'])
         ->name('archive-set');
+    
+    Route::post('/archive-delete', [ArchiveDeleteController::class, 'archiveDelete'])
+        ->name('archive-delete');
 });
 
 Route::middleware('auth:admin')->group(function () {});

@@ -35,6 +35,10 @@ Route::middleware('guest')->group(function () {
         ->name('googleLogin');
 
     Route::get('/login/google/callback', [GoogleLoginController::class, 'handleGoogleCallback']);
+
+    // Route::get('/privacy-policy', function () {
+    //     return view('user.privacy-policy');
+    // })->name('privacy-policy');
 });
 
 Route::middleware('auth:users')->group(function () {
